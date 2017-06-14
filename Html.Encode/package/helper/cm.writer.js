@@ -1,0 +1,1 @@
+(function(a){a.fn.writer=function(b){this.each(function(){var c=a(this),d=c.html(),e=0x0;c.html('');var f=setInterval(function(){var g=d.substr(e,0x1);if(g=='\x3c'){e=d.indexOf('\x3e',e)+0x1}else{e++};if(e>=d.length){c.html(d.substring(0x0,e));clearInterval(f)}else{c.html(d.substring(0x0,e)+(e&0x1?'\x5f':''))}},b)});return this}})(jQuery);

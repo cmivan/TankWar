@@ -1,0 +1,1 @@
+Array.prototype.indexOf=function(a){for(var b=0x0;b<this.length;b++){if(this[b]==a)return b};return-0x1};Array.prototype.remove=function(a){var b=this.indexOf(a);if(b>-0x1){this.splice(b,0x1)};return this};
